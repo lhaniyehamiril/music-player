@@ -1,4 +1,5 @@
-import ArtistList from './ArtistList'
+import ArtistList from "../components/ArtistList"
+
 
 const Home = () => {
   return (

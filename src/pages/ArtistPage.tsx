@@ -1,9 +1,10 @@
 import { useParams } from "react-router-dom"
 import { artists } from "../data/artists"
-import SongList from "./SongList"
+import SongList from "../components/SongList"
 
 
-const Artist = () => {
+
+const ArtistPage = () => {
  const {id} = useParams() 
 
  const findArtist = artists.find(i => i.id === Number(id)) 
@@ -21,4 +22,4 @@ const Artist = () => {
   )
 }
 
-export default Artist
+export default ArtistPage
