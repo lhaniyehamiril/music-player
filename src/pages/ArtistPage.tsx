@@ -14,7 +14,7 @@ const ArtistPage = () => {
     <h2 className="text-xl font-bold">{findArtist?.artist}</h2>
 
     <div className="flex items-center justify-center">
-      <img src={findArtist?.img} className="w-[93%] h-60 rounded-2xl object-cover mt-6" />
+      <img src={findArtist?.img} className="w-[93%] md:w-50 md:h-50 h-60 rounded-2xl object-cover mt-6" />
     </div>
      
      <SongList findArtist={findArtist} />
